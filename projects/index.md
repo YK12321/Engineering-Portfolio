@@ -4,59 +4,55 @@ layout: default
 title: Passion Projects
 ---
 
-# Passion Projects — Engineering Innovation
+# Passion Projects — Personal Engineering Initiatives
 
-These projects showcase my passion for autonomous systems, space engineering, and interdisciplinary problem-solving beyond the classroom.
+These projects showcase my personal interests and self-directed learning in space systems engineering, demonstrating transferable skills beyond formal coursework.
 
 ---
 
-## Space Systems Engineering Research
+## Independent Space Systems Research
 
-**Personal Research Initiative** — Exploring sustainable space infrastructure through autonomous systems and advanced materials.
+**Personal Technical Interest** — Self-directed exploration of emerging space technologies and autonomous systems.
 
-- **Role & Tools:** Independent Researcher, MATLAB, STK (Systems Tool Kit), Literature Review
-- **Focus Areas:** Self-replicating autonomous systems, Dyson swarm deployment strategies, space resource utilization
-- **Key Achievements:** 
-  - Conducted comprehensive technical analysis published in ENG2003 term project
-  - Integrated technical feasibility with ethical considerations and governance frameworks
-  - Developed risk assessment matrices for emerging space technologies
+- **Focus Areas:** Space infrastructure scalability, autonomous system design principles, sustainability in space development
+- **Learning Tools:** Technical literature review, MATLAB modeling concepts, STK (Systems Tool Kit) fundamentals
+- **Research Approach:** Analyzing feasibility studies, ethical frameworks, and governance structures for emerging technologies
 
 **Transferable Skills Demonstrated:**
-- **Technical Writing:** Synthesizing complex research into accessible documentation
-- **Systems Thinking:** Analyzing interconnected technical, ethical, and strategic considerations
-- **Independent Learning:** Self-directed research in cutting-edge astroengineering concepts
+- **Self-Directed Learning:** Pursuing complex technical topics independently
+- **Critical Analysis:** Evaluating technical, ethical, and strategic considerations simultaneously
+- **Information Synthesis:** Distilling complex research into coherent frameworks
 
 ---
 
-## Aerospace Industry Engagement
+## Professional Development in Aerospace
 
-**Professional Development Initiative** — Building connections with aerospace industry leaders and staying current with technology trends.
+**Career-Focused Initiative** — Active engagement with aerospace industry trends and professional networking.
 
-- **Activities:** Industry conference attendance, LinkedIn networking, technical publication reading
-- **Focus Companies:** IMP Aerospace & Defence, Bombardier, Canadian Space Agency
-- **Technical Interests:** Structural integrity analysis, ASIP (Aircraft Structural Integrity Program), satellite systems
+- **Activities:** Following industry publications, participating in virtual conferences, building LinkedIn connections
+- **Target Industries:** Aerospace manufacturing, space systems integration, satellite technology
+- **Technical Areas of Interest:** Structural analysis, systems engineering, project management
 
 **Transferable Skills Demonstrated:**
-- **Professional Networking:** Building meaningful industry relationships
-- **Market Awareness:** Understanding industry needs and technology trends
-- **Continuous Learning:** Staying current with aerospace engineering developments
+- **Industry Awareness:** Understanding current market needs and technological developments
+- **Professional Communication:** Building meaningful industry relationships through digital platforms
+- **Continuous Learning:** Staying current with rapidly evolving aerospace technologies
 
 ---
 
-## Collaborative Technology Projects
+## Communication Skill Development
 
-**Team-Based Innovation** — Leading and contributing to multidisciplinary engineering projects.
+**Personal Growth Initiative** — Developing technical communication abilities through practice and reflection.
 
-- **Recent Project:** AI Fact-Checking System Redesign (Group Presentation)
-- **Role:** Technical Content Lead, Presentation Design Contributor
-- **Tools:** PowerPoint, Discord for collaboration, Research synthesis
-- **Impact:** Proposed solutions for improving AI reliability in information verification
+- **Focus Areas:** Visual presentation design, technical writing clarity, audience adaptation strategies
+- **Practice Methods:** Personal documentation projects, presentation skill development, peer collaboration
+- **Framework Application:** Implementing 7 C's and Axioms of Communication in personal projects
 
 **Transferable Skills Demonstrated:**
-- **Team Leadership:** Coordinating diverse perspectives into unified deliverables
-- **Visual Communication:** Creating clear, engaging presentation materials
-- **Cross-Disciplinary Integration:** Bridging technical and social considerations
+- **Reflective Practice:** Continuous improvement through self-assessment and feedback integration
+- **Adaptability:** Adjusting communication style for different audiences and contexts
+- **Professional Development:** Building skills essential for engineering career success
 
 ---
 
-*These projects reflect my commitment to engineering excellence and my ability to communicate complex ideas effectively across different contexts and audiences.*
+*These personal initiatives demonstrate my commitment to lifelong learning and professional development in engineering communication and space systems technology.*
