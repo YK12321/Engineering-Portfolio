@@ -1,52 +1,48 @@
 ---
 layout: default
-title: Professional Showcase
+title: Professional Work Samples
 ---
 
-# Professional Showcase
+# Professional Work Samples
 
-This section presents four carefully selected pieces that demonstrate my communication versatility across different contexts, audiences, and formats.
+This section presents selected pieces that demonstrate my communication expertise across different professional contexts, audiences, and technical domains.
 
 ---
 
-## Showcase Overview
+## Featured Work
 
-### 📝 [Showcase 1: Professional Cover Letter](1-eng2003.html)
-**ENG2003 Assignment** — Aerospace industry application showcasing targeted professional correspondence and audience adaptation skills.
+### 📝 [Professional Cover Letter](1-eng2003.html)
+**Aerospace Industry Application** — Targeted professional correspondence demonstrating audience adaptation and industry knowledge.
 
 **Key Skills:** Professional writing, audience analysis, industry research, persuasive communication
 
 ---
 
-### 📊 [Showcase 2: Technical Research Report](2-eng2003.html)
-**ENG2003 Term Project** — Comprehensive analysis of self-replicating autonomous systems for space infrastructure development.
+### 📊 [Technical Research Report](2-eng2003.html)
+**Space Infrastructure Analysis** — Comprehensive technical report on self-replicating autonomous systems for space development.
 
 **Key Skills:** Technical writing, research synthesis, visual integration, complex concept communication
 
 ---
 
-### 🎤 [Showcase 3: Collaborative Presentation](3-eng2003.html)
-**ENG2003 Group Project** — Team presentation on redesigning AI fact-checking systems with focus on visual communication.
+### 🎤 [Team Presentation](3-eng2003.html)
+**AI Systems Design** — Collaborative presentation on redesigning AI fact-checking systems with focus on visual communication.
 
 **Key Skills:** Visual storytelling, team collaboration, presentation design, stakeholder communication
 
 ---
 
-### 🚁 [Showcase 4: Interdisciplinary Project](4-other-2024-25.html)
-**ENG2001 Term Project** — Real-time aerial mapping service proposal integrating engineering analysis with business communication.
+### 🚁 [Project Proposal](4-other-2024-25.html)
+**Aerial Mapping Service** — Comprehensive project proposal integrating engineering analysis with business strategy.
 
 **Key Skills:** Project documentation, business communication, risk analysis, multidisciplinary integration
 
 ---
 
-## Communication Framework
+## Communication Approach
 
-Each showcase item demonstrates my application of:
-
-- **Axioms of Communication:** Understanding communication as purposeful, contextual, and irreversible
-- **7 C's Framework:** Clarity, conciseness, completeness, correctness, courtesy, consideration, concreteness
-- **Audience Adaptation:** Tailoring message, tone, and format for specific professional contexts
+Each work sample demonstrates my application of professional communication principles including audience adaptation, clear technical writing, and effective visual presentation.
 
 ---
 
-*Select any showcase above to explore detailed analysis and reflection on each communication piece.*
+*Select any work sample above to explore detailed examples of my professional communication expertise.*

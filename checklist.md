@@ -1,58 +1,56 @@
 
 ---
 layout: default
-title: Submission Information
+title: About This Portfolio
 ---
 
-# ENG2003 Portfolio Submission
+# About This Portfolio
 
-This page contains the technical submission requirements and verification checklist for academic evaluation purposes.
+This professional portfolio showcases my expertise in technical communication and engineering project management through selected work samples and professional development insights.
 
 ---
 
-## Portfolio Completion Status
+## Portfolio Contents
 
-### ✅ Showcase Components (40%)
-**4 items total** — **3 from ENG2003** + **1 interdisciplinary (2024–2025)**
+### ✅ Professional Work Samples
+**Featured Projects** — Technical and professional communications demonstrating versatility across contexts
 
-All showcase items include:
-- ✅ Rationale for selection with context and audience analysis
-- ✅ Reflection on development as a communicator  
-- ✅ Demonstration of specific communication skills
-- ✅ Effective presentation and organization
+All work samples include:
+- ✅ Strategic rationale and context analysis
+- ✅ Professional development insights
+- ✅ Technical communication skill demonstration
+- ✅ Professional presentation and organization
 
-### ✅ Written Reflection (30%) — 650 words
-**Part A:** Overall ENG2003 experience with concrete examples, demonstrating understanding of **Axioms of Communication** and **7 C's** framework
+### ✅ Professional Development Analysis
+**Technical Communication Growth** — Insights into communication expertise development, grounded in professional communication principles and practical application
 
-**Part B:** Personal growth analysis with specific skill improvements, grounded in communication theory and reflective practice
+### ✅ Professional Profile Integration
+**LinkedIn Professional Presence:**
+- Professional headline and technical summary
+- Current engineering program and academic background
+- Key technical and communication competencies highlighted  
+- Integrated professional networking presence
+- Industry-appropriate presentation and content
 
-### ✅ Professional Profile (10%)
-**LinkedIn Integration:**
-- Professional headline and summary
-- Current undergraduate program listed
-- Key technical and communication skills highlighted  
-- Easily accessible through portfolio navigation
-- Professional presentation and content quality
+### ✅ Technical Portfolio Features
+**Engineering Communication Focus:**
+- Clear presentation of technical interests and capabilities
+- Demonstration of transferable professional skills
+- Integration of technical expertise with communication excellence
 
-### ✅ Personal Projects (10%)
-**Space Systems Engineering Focus:**
-- Visual presentation of technical interests and research
-- Clear articulation of transferable skills
-- Connection between personal passions and professional development
-
-### ✅ Overall Professionalism (10%)
+### ✅ Professional Presentation Standards
 - Clean, readable structure with intuitive navigation
-- Professional tone and presentation throughout
-- Positive impression for academic and industry audiences
+- Professional engineering industry tone throughout
+- Positive impression for technical and industry audiences
 
 ---
 
-## Technical Specifications
+## Technical Implementation
 
-**Public Access:** Site remains publicly accessible through **September 30, 2025**  
-**Academic Submission:** Written components submitted through appropriate academic channels  
-**Repository:** [GitHub Repository](https://github.com/{{ site.github_username }}/{{ site.repository | split: "/" | last }})
+**Digital Portfolio:** Modern web-based portfolio with responsive design  
+**Repository Management:** [GitHub Repository](https://github.com/{{ site.github_username }}/{{ site.repository | split: "/" | last }})  
+**Professional Access:** Ongoing professional accessibility for networking and career opportunities
 
 ---
 
-*This submission page is included for academic evaluation purposes and demonstrates attention to requirements and professional documentation practices.*
+*This portfolio demonstrates technical communication competence and professional engineering capabilities suitable for industry engagement and career development.*
