@@ -1,0 +1,45 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.name }}</title>
+  {%- if site.theme -%}
+    <!-- Using built-in GitHub Pages theme: {{ site.theme }} -->
+  {%- endif -%}
+  <style>
+    /* Subtle tweaks for readability */
+    .page-content { max-width: 900px; margin: 0 auto; padding: 1.25rem; }
+    nav a { margin-right: 0.75rem; }
+    blockquote { border-left: 4px solid #ddd; padding-left: 1rem; color: #555; }
+    img { max-width: 100%; height: auto; }
+    .meta { font-size: 0.9rem; color: #666; }
+  </style>
+</head>
+<body>
+  <div class="page-content">
+    <header>
+      <h1 style="margin-bottom:0.2rem;">{{ site.name }}</h1>
+      <div class="meta">{{ site.role }} · <a href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a></div>
+      <nav style="margin: 0.75rem 0 1.25rem 0;">
+        <a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ site.baseurl }}/showcase/1-eng2003.html">Showcase</a>
+        <a href="{{ site.baseurl }}/reflection/">Reflection</a>
+        <a href="{{ site.baseurl }}/projects/">Projects</a>
+        <a href="{{ site.baseurl }}/checklist.html">Submission</a>
+      </nav>
+      <hr>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <hr>
+    <footer class="meta">
+      © {{ site.name }} · Last updated {{ "now" | date: "%Y-%m-%d" }}
+    </footer>
+  </div>
+</body>
+</html>

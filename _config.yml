@@ -16,11 +16,11 @@ github_username: YK12321
 url: "https://yk12321.github.io"
 baseurl: "/Engineering-Portfolio"
 
-# GitHub Pages theme (built-in)
+# GitHub Pages theme (built-in) - DISABLED to use custom layouts
 # See https://pages.github.com/themes/
 # Options include: jekyll-theme-cayman, jekyll-theme-minimal, jekyll-theme-slate, jekyll-theme-leap-day, etc.
 
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
 
 # Build settings
 markdown: kramdown
