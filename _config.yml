@@ -1,0 +1,41 @@
+
+# Site settings
+# Edit these to personalize your site
+
+name: Yathharthha Kaushal
+title: ENG2003 Communication Portfolio
+role: Space Systems Engineering Student
+email: yathharthha@yathharthha.space
+linkedin_url: https://www.linkedin.com/in/yathharthha-kaushal-86088532a/
+
+# GitHub repository information
+repository: YK12321/Engineering-Portfolio
+github_username: YK12321
+
+# GitHub Pages settings
+url: "https://yk12321.github.io"
+baseurl: "/Engineering-Portfolio"
+
+# GitHub Pages theme (built-in)
+# See https://pages.github.com/themes/
+# Options include: jekyll-theme-cayman, jekyll-theme-minimal, jekyll-theme-slate, jekyll-theme-leap-day, etc.
+
+theme: jekyll-theme-cayman
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Navigation (shown on the home page)
+nav:
+  - title: Home
+    url: /
+  - title: Showcase
+    url: /showcase/1-eng2003.html
+  - title: Reflection
+    url: /reflection/
+  - title: Projects
+    url: /projects/
+  - title: Submission
+    url: /checklist.html
