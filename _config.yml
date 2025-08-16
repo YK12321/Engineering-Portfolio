@@ -22,10 +22,31 @@ baseurl: "/Engineering-Portfolio"
 
 # theme: jekyll-theme-cayman
 
+# Completely disable themes to use custom layouts
+theme: null
+
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
+
+# Force custom layouts
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  
+# Exclude problematic plugins
+plugins_exclude:
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
 
 # Navigation (shown on the home page)
 nav:
