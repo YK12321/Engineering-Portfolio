@@ -1,61 +1,81 @@
 
-# ENG2003 Communication Portfolio — GitHub Pages Template
+# Engineering Communication Portfolio
 
-This repository is a ready-to-publish GitHub Pages site that satisfies the structure and marking rubric for **ENG 2003 Term Project 02 – Communication Portfolio** (due Aug 15, 2025). It includes:
+A professional portfolio showcasing engineering communication expertise through curated work samples, technical projects, and professional development insights.
 
-- A home page with a clear summary and prominent LinkedIn link
-- Four showcase pages (3 from ENG2003 + 1 from another communications-related activity in 2024–2025)
-- A reflection section (500–1,000 words total; split into Part A + Part B)
-- A uniquely tailored (passion project) section
-- A built-in checklist aligned to the rubric
-
-> **Reminder**: Make sure your portfolio remains publicly accessible until **Sep 30, 2025** and submit the written portions of your **showcase descriptions** and **reflection** to Turnitin as required. See the checklist page for details.
+**Live Site:** [yathharthha.space](https://yathharthha.space)
 
 ---
 
-## Quick Start
+## About This Portfolio
 
-1. **Use this template**
-   - Click **Use this template** → **Create a new repository** on GitHub, or download and upload to a new repo.
-2. **Enable GitHub Pages**
-   - GitHub → **Settings** → **Pages** → *Build and deployment* → **Source: Deploy from a branch**
-   - **Branch:** `main` — **Folder:** `/ (root)` → **Save**
-3. **Edit site content**
-   - Update `_config.yml` with your **name**, **title**, and **LinkedIn URL**.
-   - Edit Markdown files in `index.md`, `showcase/*.md`, `reflection/index.md`, and `projects/index.md`.
-4. **Add artefacts** (reports, slides, images, code links) to `assets/` and link them from the showcase pages.
-5. **Publish**
-   - Wait for the build (usually < 1 min). Your site will appear at `https://<your-username>.github.io/<repo-name>/`.
+This portfolio demonstrates engineering excellence through effective communication, featuring:
 
-## Turnitin submission
-Export the **written portions** (the four showcase write-ups + reflection) to a single `.docx` or `.pdf` and submit to Turnitin. You can copy-paste from the Markdown pages or print to PDF from the browser. Follow the file naming convention `FirstName_LastName_ENG2003W23_TermProject2.pdf` (adjust term code if needed).
+- **Professional Work Samples** — Selected pieces showcasing communication expertise across different contexts
+- **Technical Projects** — Engineering analysis, research reports, and collaborative presentations
+- **Professional Development** — Insights into growth as an engineering communicator
+- **Technical Skills** — ANSYS, MATLAB, STK, CAD modeling, Python programming
 
-## Folder structure
+---
+
+## Portfolio Structure
+
 ```
 .
-├─ index.md                  # Home page (summary + LinkedIn)
+├─ index.html               # Home page and professional summary
 ├─ showcase/
-│  ├─ 1-eng2003.md
-│  ├─ 2-eng2003.md
-│  ├─ 3-eng2003.md
-│  └─ 4-other-2024-25.md    # Non-ENG2003 communications item
+│  ├─ 1-eng2003.md         # Professional cover letter
+│  ├─ 2-eng2003.md         # Technical research report
+│  ├─ 3-eng2003.md         # Team presentation
+│  └─ 4-other-2024-25.md   # Project proposal
 ├─ reflection/
-│  └─ index.md              # Part A + Part B (500–1,000 words total)
+│  └─ index.md             # Professional development insights
 ├─ projects/
-│  └─ index.md              # Uniquely tailored passion project(s)
-├─ checklist.md             # Rubric-aligned checklist before submission
+│  └─ index.md             # Additional technical projects
 ├─ assets/
-│  ├─ img/.gitkeep
-│  └─ docs/.gitkeep
-├─ _config.yml
-└─ .gitignore
+│  ├─ docs/                # PDF documents and reports
+│  └─ img/                 # Images and diagrams
+└─ _config.yml             # Site configuration
 ```
-
-## Tips for a positive, professional impression
-- Keep writing **clear, concise, complete**; proofread for tone and coherence.
-- Use consistent headings and captions. Credit collaborators where appropriate.
-- Optimize images (≤ 200 KB each) and ensure alt text for accessibility.
 
 ---
 
-**Last updated:** 2025-08-16
+## Technical Implementation
+
+This portfolio is built using:
+
+- **Jekyll** static site generator
+- **GitHub Pages** for hosting
+- **Custom domain** configuration
+- **Responsive design** with professional styling
+- **Accessibility features** and optimized performance
+
+### Local Development
+
+To run this site locally:
+
+```bash
+# Install dependencies
+bundle install
+
+# Serve locally
+bundle exec jekyll serve
+```
+
+The site will be available at `http://localhost:4000`
+
+---
+
+## Contact
+
+**Yathharthha Kaushal**  
+Space Systems Engineering Student  
+York University
+
+- **LinkedIn:** [linkedin.com/in/yathharthha-kaushal](https://www.linkedin.com/in/yathharthha-kaushal-86088532a/)
+- **Email:** KaushalY@yathharthha.space
+- **Portfolio:** [yathharthha.space](https://yathharthha.space)
+
+---
+
+**© 2025 Yathharthha Kaushal** — Engineering Communication Portfolio
