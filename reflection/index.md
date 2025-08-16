@@ -3,35 +3,36 @@ layout: default
 title: Professional Development
 ---
 
-# Professional Development in Technical Communication
+# Engineering Communication (ENG2003) course reflection
 
 ---
 
-## Communication Expertise Overview
+# Part A — Overall Course Reflection 
+My experience in **ENG2003: Effective Engineering Communication** has been both challenging and transformative. At the start of the course, I expected a focus on grammar and report formatting, but the curriculum went far beyond that, emphasizing the **Axioms of Communication** and the **7 C’s** as foundational principles for professional engineering communication. This shift in perspective helped me understand that communication is not just about correctness—it is about clarity, purpose, and audience adaptation.
 
-My expertise in engineering communication has developed through hands-on experience with diverse technical projects and professional correspondence. I've learned that effective technical communication goes far beyond grammar and formatting—it requires clarity of purpose, audience awareness, and strategic message design.
+One of the most useful aspects of the course was learning how to craft **professional correspondence**, such as cover letters. The first assignment taught me to tailor my message to a specific employer, ensuring that every sentence served a purpose. This exercise reinforced the importance of **clarity, conciseness, and courtesy**, three of the 7 C’s that I now consciously apply in all professional writing.
 
-One of my strongest areas is **professional correspondence**, particularly in crafting targeted communications for specific industries and stakeholders. Through developing cover letters and professional documents, I've learned to frame technical experience as value propositions, ensuring every sentence serves a clear purpose while maintaining professional tone and courtesy.
+Another highlight was the **technical report project**, which required synthesizing complex research into a structured, accessible document. This experience taught me how to balance technical depth with readability, using visuals and executive summaries to enhance comprehension. It also demonstrated the axiom that “communication is contextual”—the same technical content must be framed differently for different audiences.
 
-My **technical documentation** skills have been refined through complex projects requiring integration of technical depth with accessibility. I've developed proficiency in synthesizing research into structured, readable documents that serve diverse audiences. This includes effective use of visual elements, executive summaries, and hierarchical organization to enhance comprehension and professional presentation.
+Finally, the **group presentation on AI fact-checking** was one of the most engaging activities. It pushed me to think about **visual storytelling** and oral delivery, skills that are often overlooked in engineering education. Collaborating with peers also reinforced the axiom that “communication is a two-way process,” as success depended on active listening and feedback.
 
-**Collaborative communication** represents another key strength, particularly in team-based technical projects. Working on presentations and group deliverables has enhanced my visual storytelling abilities and reinforced the importance of active listening and feedback integration in professional environments.
-
-These communication competencies extend beyond individual projects, providing practical frameworks for professional engineering practice in both academic and industry settings.
+Overall, ENG2003 exceeded my expectations by equipping me with practical tools and frameworks that extend beyond the classroom. These skills will be invaluable in both academic and professional settings.
 
 ---
 
-## Skill Development and Growth
+## Part B — Personal Growth & Development
 
-My approach to technical communication has evolved significantly through practical application and reflection. Initially focused primarily on technical accuracy, I've developed a more strategic approach that balances precision with clarity and audience engagement.
+Before ENG2003, I considered myself a competent writer, but my approach lacked structure and strategic intent. I often focused on technical accuracy at the expense of clarity and audience engagement. Through this course, I have significantly improved in three key areas: **professional correspondence**, **technical documentation**, and **presentation skills**.
 
-**Professional writing** capabilities have strengthened through targeted practice with industry-specific communications. I've learned to apply fundamental principles of clear, concise, and complete communication while adapting tone and content for specific professional contexts. This development will be crucial for internship applications, industry correspondence, and career advancement.
+First, my ability to write **professional documents** has improved dramatically. The cover letter assignment taught me how to frame my technical experience as a value proposition for employers. I learned to apply the **7 C’s**—especially clarity, conciseness, and completeness—while maintaining a courteous tone. This skill will be critical when applying for internships and co-op positions.
 
-**Technical documentation** expertise has grown through complex project work, particularly in synthesizing technical, ethical, and strategic considerations into coherent professional narratives. I've developed proficiency with professional document structure, visual integration, and executive summary writing that distills comprehensive analysis into accessible formats.
+Second, I developed stronger **technical writing skills** through the term project report on self-replicating autonomous systems. This was the most challenging piece of writing I have ever done because it required integrating technical, ethical, and strategic considerations into a coherent narrative. I learned to use headings, figures, and tables effectively, and to write an executive summary that captures the essence of a 30-page report in one page. This experience reinforced the axiom that “communication is irreversible”—once a report is submitted, it becomes a permanent record of your professionalism.
 
-**Presentation and visual communication** skills have developed through collaborative projects requiring clear explanation of complex technical concepts to diverse audiences. This includes experience with presentation design, visual storytelling, and effective use of multimedia elements to enhance technical communication.
+Third, I improved my **oral and visual communication skills** through the group presentation on AI fact-checking. Simplifying complex ideas for a general audience and designing visually appealing slides taught me the importance of **channel richness** and **feedback loops** in communication. It also highlighted the value of collaboration and adaptability.
 
-Looking ahead, I continue to focus on areas for growth including enhanced data visualization capabilities and refined project documentation processes. These skills support both current engineering studies and future professional practice, enabling effective communication with multidisciplinary teams, clients, and stakeholders to ensure technical expertise translates into actionable insights and professional impact.
+Despite these improvements, I recognize areas for growth. I need to work on **time management** during large projects to allow more time for editing and peer review. I also want to refine my ability to incorporate **data visualization** into reports and presentations for greater impact.
+
+Moving forward, I will apply these lessons in other engineering courses by prioritizing clarity and audience awareness in lab reports, design documentation, and presentations. In professional practice, these skills will help me communicate effectively with multidisciplinary teams, clients, and stakeholders—ensuring that my technical expertise translates into actionable insights.
 
 ---
 
