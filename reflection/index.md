@@ -1,10 +1,5 @@
 ---
 layout: default
-title: Reflection
----
-
----
-layout: default
 title: Professional Development
 ---
 
