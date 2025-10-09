@@ -3,7 +3,7 @@
 # Edit these to personalize your site
 
 name: Yathharthha Kaushal
-title: ENG2003 Communication Portfolio
+title: Engineering Portfolio
 role: Space Systems Engineering Student
 email: KaushalY@yathharthha.space
 linkedin_url: https://www.linkedin.com/in/yathharthha-kaushal-86088532a/
@@ -52,9 +52,9 @@ plugins_exclude:
 nav:
   - title: Home
     url: /
-  - title: Showcase
-    url: /showcase/1-eng2003.html
-  - title: Reflection
-    url: /reflection/
-  - title: Submission
-    url: /checklist.html
+  - title: Projects
+    url: /showcase/
+  - title: Skills
+    url: /professionaldevelopment/
+  - title: About
+    url: /about.html

@@ -1,48 +1,77 @@
 ---
-layout: default
-title: Professional Work Samples
+layout: d### 🚀 [Space### 🚁 [Real-Time Aerial Mapping Service](4-aerial-mapping.html)Infrastructure Research](2-space-infrastructure.html)fault
+title: Technical Projects
 ---
 
-# Professional Work Samples
+# Technical Projects & Engineering Work
 
-This section presents selected pieces that demonstrate my communication expertise across different professional contexts, audiences, and technical domains.
-
----
-
-## Featured Work
-
-### 📝 [Professional Cover Letter](1-eng2003.html)
-**Aerospace Industry Application** — Targeted professional correspondence demonstrating audience adaptation and industry knowledge.
-
-**Key Skills:** Professional writing, audience analysis, industry research, persuasive communication
+This section showcases my engineering projects spanning space systems research, autonomous systems, aerospace applications, and innovative technology solutions.
 
 ---
 
-### 📊 [Technical Research Report](2-eng2003.html)
-**Space Infrastructure Analysis** — Comprehensive technical report on self-replicating autonomous systems for space development.
+## Featured Projects
 
-**Key Skills:** Technical writing, research synthesis, visual integration, complex concept communication
+### � [Space Infrastructure Research](2-eng2003.html)
+**Self-Replicating Autonomous Systems Analysis** — Comprehensive technical research on the feasibility, ethics, and implementation of self-replicating systems for sustainable space development.
 
----
+**Technical Focus:** Systems engineering, autonomous robotics, space infrastructure, sustainability analysis, ethical frameworks
 
-### 🎤 [Team Presentation](3-eng2003.html)
-**AI Systems Design** — Collaborative presentation on redesigning AI fact-checking systems with focus on visual communication.
-
-**Key Skills:** Visual storytelling, team collaboration, presentation design, stakeholder communication
-
----
-
-### 🚁 [Project Proposal](4-other-2024-25.html)
-**Aerial Mapping Service** — Comprehensive project proposal integrating engineering analysis with business strategy.
-
-**Key Skills:** Project documentation, business communication, risk analysis, multidisciplinary integration
+**Key Contributions:**
+- Technical feasibility assessment of self-replicating systems in space environments
+- Ethical and governance framework development for emerging space technologies
+- Integration of technical, economic, and strategic considerations
+- Comprehensive literature review and synthesis of multidisciplinary research
 
 ---
 
-## Communication Approach
+### � [Real-Time Aerial Mapping Service](4-other-2024-25.html)
+**Drone-Based Infrastructure Monitoring** — Project proposal for an integrated aerial mapping solution combining drone technology, computer vision, and cloud infrastructure.
 
-Each work sample demonstrates my application of professional communication principles including audience adaptation, clear technical writing, and effective visual presentation.
+**Technical Focus:** Drone systems, computer vision, cloud computing, real-time data processing, emergency response applications
+
+**Key Contributions:**
+- System architecture design for real-time aerial data processing
+- Integration of drone hardware with cloud-based analytics
+- Risk assessment and mitigation strategy development
+- Business model and market analysis for emergency response sector
 
 ---
 
-*Select any work sample above to explore detailed examples of my professional communication expertise.*
+### 🤖 [AI Fact-Checking System Redesign](3-ai-fact-checking.html)
+**User Experience & System Design** — Collaborative project improving AI-powered fact-checking systems with emphasis on user trust, accessibility, and information verification.
+
+**Technical Focus:** AI systems design, user experience, information systems, collaborative development
+
+**Key Contributions:**
+- User interface redesign for improved accessibility and trust
+- System workflow optimization for fact-checking processes
+- Visual communication and presentation development
+- Team collaboration and project coordination
+
+---
+
+### ✈️ [Aerospace Structural Integrity](1-aerospace-structural.html)
+**ASIP Implementation & Analysis** — Professional development work focused on Aircraft Structural Integrity Program implementation and aerospace structural analysis.
+
+**Technical Focus:** Structural analysis, ANSYS simulation, aerospace engineering, ASIP methodologies
+
+**Key Contributions:**
+- Application of ANSYS for structural integrity analysis
+- Understanding of ASIP program requirements and implementation
+- Integration of CAD modeling with finite element analysis
+- Professional development in aerospace industry standards
+
+---
+
+## Technical Capabilities Demonstrated
+
+These projects showcase my proficiency in:
+- **Systems Engineering:** Holistic approach to complex technical challenges
+- **Research & Analysis:** Comprehensive investigation and synthesis of technical information
+- **Software Tools:** ANSYS, MATLAB, STK, CAD modeling, Python
+- **Project Management:** Planning, execution, and documentation of engineering projects
+- **Multidisciplinary Integration:** Combining technical expertise across multiple domains
+
+---
+
+*Each project represents significant technical work demonstrating engineering problem-solving, analytical thinking, and practical application of aerospace and systems engineering principles.*

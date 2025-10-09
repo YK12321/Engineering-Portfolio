@@ -1,20 +1,20 @@
 
-# Engineering Communication Portfolio
+# Engineering Portfolio — Yathharthha Kaushal
 
-A professional portfolio showcasing engineering communication expertise through curated work samples, technical projects, and professional development insights.
+A professional portfolio showcasing aerospace and space systems engineering expertise through technical projects, research, and professional development.
 
-**Live Site:** [yathharthha.space](https://yathharthha.space)
+**Live Portfolio:** [yathharthha.space](https://yathharthha.space)
 
 ---
 
 ## About This Portfolio
 
-This portfolio demonstrates engineering excellence through effective communication, featuring:
+This portfolio demonstrates engineering excellence across multiple domains:
 
-- **Professional Work Samples** — Selected pieces showcasing communication expertise across different contexts
-- **Technical Projects** — Engineering analysis, research reports, and collaborative presentations
-- **Professional Development** — Insights into growth as an engineering communicator
-- **Technical Skills** — ANSYS, MATLAB, STK, CAD modeling, Python programming
+- **Technical Projects** — Engineering research, analysis, and design work
+- **Space Systems Engineering** — Research in autonomous systems and space infrastructure
+- **Aerospace Applications** — Structural integrity analysis and ASIP methodologies
+- **Professional Skills** — Technical communication, project management, and documentation
 
 ---
 
@@ -22,21 +22,64 @@ This portfolio demonstrates engineering excellence through effective communicati
 
 ```
 .
-├─ index.html               # Home page and professional summary
+├─ index.html                    # Home page and professional summary
 ├─ showcase/
-│  ├─ 1-eng2003.md         # Professional cover letter
-│  ├─ 2-eng2003.md         # Technical research report
-│  ├─ 3-eng2003.md         # Team presentation
-│  └─ 4-other-2024-25.md   # Project proposal
+│  ├─ index.md                   # Projects overview
+│  ├─ 1-aerospace-structural.md  # Aerospace structural integrity project
+│  ├─ 2-space-infrastructure.md  # Space infrastructure research
+│  ├─ 3-ai-fact-checking.md      # AI systems design project
+│  └─ 4-aerial-mapping.md        # Aerial mapping service proposal
+├─ professionaldevelopment/
+│  └─ index.md                   # Technical skills and expertise
 ├─ reflection/
-│  └─ index.md             # Professional development insights
-├─ projects/
-│  └─ index.md             # Additional technical projects
+│  └─ index.md                   # Professional growth narrative
+├─ about.md                      # Portfolio overview and background
 ├─ assets/
-│  ├─ docs/                # PDF documents and reports
-│  └─ img/                 # Images and diagrams
-└─ _config.yml             # Site configuration
+│  ├─ docs/                      # Project documentation (PDFs)
+│  └─ img/                       # Images and diagrams
+└─ _config.yml                   # Site configuration
 ```
+
+---
+
+## Featured Projects
+
+### 🚀 Space Infrastructure Research
+Comprehensive analysis of self-replicating autonomous systems for sustainable space development, including technical feasibility, ethical frameworks, and strategic planning.
+
+### ✈️ Aerospace Structural Integrity
+Professional development work in aerospace structural analysis, ASIP implementation, and finite element analysis using ANSYS.
+
+### 🚁 Real-Time Aerial Mapping Service
+Project proposal integrating drone technology, computer vision, and cloud infrastructure for emergency response and infrastructure monitoring.
+
+### 🤖 AI Fact-Checking System Redesign
+Collaborative project improving AI-powered information verification systems with focus on user experience and system design.
+
+---
+
+## Technical Capabilities
+
+**Engineering Software:**
+- ANSYS (Finite Element Analysis)
+- MATLAB (Numerical Analysis)
+- STK - Systems Tool Kit (Space Systems)
+- Python (Programming & Automation)
+- CAD Modeling
+
+**Engineering Domains:**
+- Space Systems Engineering
+- Aerospace Structural Analysis
+- Autonomous Robotics
+- Systems Engineering
+- Project Management
+
+**Professional Skills:**
+- Technical Documentation
+- Research & Analysis
+- Professional Communication
+- Visual Presentation
+- Stakeholder Engagement
 
 ---
 
@@ -44,15 +87,15 @@ This portfolio demonstrates engineering excellence through effective communicati
 
 This portfolio is built using:
 
-- **Jekyll** static site generator
-- **GitHub Pages** for hosting
-- **Custom domain** configuration
-- **Responsive design** with professional styling
-- **Accessibility features** and optimized performance
+- **Jekyll** — Static site generator
+- **GitHub Pages** — Hosting platform
+- **Custom Domain** — yathharthha.space
+- **Responsive Design** — Mobile-friendly professional styling
+- **Custom Layouts** — Professional engineering presentation
 
 ### Local Development
 
-To run this site locally:
+To run this portfolio locally:
 
 ```bash
 # Install dependencies
@@ -66,16 +109,27 @@ The site will be available at `http://localhost:4000`
 
 ---
 
-## Contact
+## Contact Information
 
 **Yathharthha Kaushal**  
 Space Systems Engineering Student  
 York University
 
-- **LinkedIn:** [linkedin.com/in/yathharthha-kaushal](https://www.linkedin.com/in/yathharthha-kaushal-86088532a/)
-- **Email:** KaushalY@yathharthha.space
 - **Portfolio:** [yathharthha.space](https://yathharthha.space)
+- **LinkedIn:** [linkedin.com/in/yathharthha-kaushal-86088532a](https://www.linkedin.com/in/yathharthha-kaushal-86088532a/)
+- **Email:** KaushalY@yathharthha.space
+- **GitHub:** [@YK12321](https://github.com/YK12321)
 
 ---
 
-**© 2025 Yathharthha Kaushal** — Engineering Communication Portfolio
+## Professional Use
+
+This portfolio is designed for:
+- **Career Development** — Showcasing engineering capabilities to potential employers
+- **Professional Networking** — Demonstrating technical expertise and project experience
+- **Industry Engagement** — Providing comprehensive overview of skills and interests
+- **Academic Context** — Documenting engineering work and professional growth
+
+---
+
+**© 2025 Yathharthha Kaushal** — Professional Engineering Portfolio
