@@ -47,8 +47,7 @@ This portfolio demonstrates engineering excellence across multiple domains:
 ### 🚀 Space Infrastructure Research
 Comprehensive analysis of self-replicating autonomous systems for sustainable space development, including technical feasibility, ethical frameworks, and strategic planning.
 
-### ✈️ Aerospace Structural Integrity
-Professional development work in aerospace structural analysis, ASIP implementation, and finite element analysis using ANSYS.
+
 
 ### 🚁 Real-Time Aerial Mapping Service
 Project proposal integrating drone technology, computer vision, and cloud infrastructure for emergency response and infrastructure monitoring.
@@ -69,7 +68,7 @@ Collaborative project improving AI-powered information verification systems with
 
 **Engineering Domains:**
 - Space Systems Engineering
-- Aerospace Structural Analysis
+
 - Autonomous Robotics
 - Systems Engineering
 - Project Management
