@@ -84,19 +84,6 @@ This section showcases my engineering projects spanning space systems research, 
 
 ---
 
-### ✈️ [Aerospace Structural Integrity](1-aerospace-structural.html)
-**ASIP Implementation & Analysis** — Professional development work focused on Aircraft Structural Integrity Program implementation and aerospace structural analysis.
-
-**Technical Focus:** Structural analysis, ANSYS simulation, aerospace engineering, ASIP methodologies
-
-**Key Contributions:**
-- Application of ANSYS for structural integrity analysis
-- Understanding of ASIP program requirements and implementation
-- Integration of CAD modeling with finite element analysis
-- Professional development in aerospace industry standards
-
----
-
 ## Technical Capabilities Demonstrated
 
 These projects showcase my proficiency in:
