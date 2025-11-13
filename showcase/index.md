@@ -1,5 +1,5 @@
 ---
-layout: d### 🚀 [Space### 🚁 [Real-Time Aerial Mapping Service](4-aerial-mapping.html)Infrastructure Research](2-space-infrastructure.html)fault
+layout: default
 title: Technical Projects
 ---
 
