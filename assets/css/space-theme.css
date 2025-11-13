@@ -105,9 +105,8 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.98);
+  background: transparent;
   min-height: 100vh;
-  box-shadow: 0 0 100px rgba(99, 102, 241, 0.2);
   position: relative;
   z-index: 1;
   animation: slide-in 0.8s ease-out;
@@ -115,19 +114,20 @@ body {
 
 /* Modern Navigation with space theme */
 header {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(10, 25, 41, 0.85);
   padding: 1.5rem 3rem;
-  border-bottom: 1px solid var(--gray-light);
+  border-bottom: 1px solid rgba(99, 102, 241, 0.3);
   position: sticky;
   top: 0;
   z-index: 100;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
   transition: all 0.3s ease;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
 }
 
 header:hover {
-  background: rgba(255, 255, 255, 0.98);
-  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.1);
+  background: rgba(10, 25, 41, 0.95);
+  box-shadow: 0 4px 30px rgba(99, 102, 241, 0.4);
 }
 
 .header-content {
@@ -183,7 +183,8 @@ header:hover {
 .logo h1 {
   font-size: 1.4rem;
   font-weight: 700;
-  color: var(--dark);
+  color: var(--white);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 nav {
@@ -193,7 +194,7 @@ nav {
 }
 
 nav a {
-  color: var(--gray);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
@@ -222,7 +223,7 @@ nav a:hover::before {
 }
 
 nav a:hover {
-  color: var(--primary);
+  color: var(--white);
   transform: translateY(-2px);
 }
 
@@ -234,7 +235,7 @@ nav a.active {
 /* Main Content */
 main {
   padding: 0;
-  background: var(--white);
+  background: transparent;
 }
 
 /* Hero Section with space theme */
@@ -372,6 +373,9 @@ main {
 .content-section {
   padding: 4rem 3rem;
   position: relative;
+  background: rgba(10, 25, 41, 0.75);
+  backdrop-filter: blur(10px);
+  margin: 2rem 0;
 }
 
 .section-header {
@@ -383,10 +387,11 @@ main {
 .section-header h2 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: var(--dark);
+  color: var(--white);
   margin-bottom: 0.5rem;
   position: relative;
   display: inline-block;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
 }
 
 .section-header h2::after {
@@ -403,7 +408,8 @@ main {
 
 .section-header p {
   font-size: 1.1rem;
-  color: var(--gray);
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Project Cards Grid with parallax effect */
@@ -415,8 +421,8 @@ main {
 }
 
 .project-card {
-  background: white;
-  border: 1px solid var(--gray-light);
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid rgba(99, 102, 241, 0.3);
   border-radius: 16px;
   padding: 2rem;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -425,6 +431,8 @@ main {
   cursor: pointer;
   animation: slide-in 0.6s ease-out;
   animation-fill-mode: both;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 .project-card:nth-child(1) { animation-delay: 0.1s; }
@@ -461,8 +469,9 @@ main {
 
 .project-card:hover {
   transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 25px 50px rgba(99, 102, 241, 0.15);
+  box-shadow: 0 25px 50px rgba(99, 102, 241, 0.5);
   border-color: var(--primary);
+  background: rgba(30, 41, 59, 0.7);
 }
 
 .project-card:hover::before {
@@ -496,9 +505,10 @@ main {
 .project-card h3 {
   font-size: 1.4rem;
   font-weight: 700;
-  color: var(--dark);
+  color: var(--white);
   margin-bottom: 0.5rem;
   transition: color 0.3s ease;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .project-card:hover h3 {
@@ -506,9 +516,10 @@ main {
 }
 
 .project-card p {
-  color: var(--gray);
+  color: rgba(255, 255, 255, 0.85);
   margin-bottom: 1.5rem;
   line-height: 1.7;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .tech-stack {
@@ -520,20 +531,23 @@ main {
 
 .tech-badge {
   display: inline-block;
-  background: var(--light);
-  color: var(--primary);
+  background: rgba(99, 102, 241, 0.2);
+  color: rgba(255, 255, 255, 0.9);
   padding: 0.3rem 0.8rem;
   border-radius: 6px;
   font-size: 0.85rem;
   font-weight: 500;
   font-family: 'JetBrains Mono', monospace;
   transition: all 0.3s ease;
+  border: 1px solid rgba(99, 102, 241, 0.4);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .tech-badge:hover {
-  background: var(--primary);
+  background: rgba(99, 102, 241, 0.5);
   color: white;
   transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
 }
 
 .project-links {
@@ -582,7 +596,7 @@ main {
 }
 
 .skill-category {
-  background: var(--light);
+  background: rgba(30, 41, 59, 0.5);
   border-radius: 12px;
   padding: 1.5rem;
   transition: all 0.3s ease;
@@ -590,6 +604,9 @@ main {
   animation-fill-mode: both;
   position: relative;
   overflow: hidden;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .skill-category:nth-child(1) { animation-delay: 0.1s; }
@@ -612,7 +629,8 @@ main {
 
 .skill-category:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.1);
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.4);
+  background: rgba(30, 41, 59, 0.7);
 }
 
 .skill-category:hover::before {
@@ -622,11 +640,12 @@ main {
 .skill-category h3 {
   font-size: 1.2rem;
   font-weight: 700;
-  color: var(--dark);
+  color: var(--white);
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .skill-category h3 i {
@@ -639,15 +658,16 @@ main {
 
 .skill-list li {
   padding: 0.5rem 0;
-  color: var(--gray);
+  color: rgba(255, 255, 255, 0.8);
   display: flex;
   align-items: center;
   gap: 0.5rem;
   transition: all 0.3s ease;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .skill-list li:hover {
-  color: var(--dark);
+  color: var(--white);
   transform: translateX(5px);
 }
 
@@ -753,33 +773,37 @@ footer::before {
 
 /* Page-specific styles */
 main h1 {
-  color: var(--dark);
+  color: var(--white);
   font-size: 2.5rem;
   margin-bottom: 1rem;
   font-weight: 700;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.8);
 }
 
 main h2 {
-  color: var(--dark);
+  color: var(--white);
   font-size: 2rem;
   margin: 2.5rem 0 1.5rem;
   font-weight: 700;
   border-bottom: 3px solid var(--primary);
   padding-bottom: 0.5rem;
   display: inline-block;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.8);
 }
 
 main h3 {
-  color: var(--dark);
+  color: var(--white);
   font-size: 1.5rem;
   margin: 2rem 0 1rem;
   font-weight: 600;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
 }
 
 main p {
   margin-bottom: 1rem;
   line-height: 1.8;
-  color: var(--gray);
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 main ul, main ol {
@@ -789,7 +813,8 @@ main ul, main ol {
 main li {
   margin-bottom: 0.7rem;
   line-height: 1.7;
-  color: var(--gray);
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 main a {
@@ -823,10 +848,12 @@ blockquote {
   border-left: 4px solid var(--primary);
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
-  background: var(--light);
+  background: rgba(30, 41, 59, 0.6);
   border-radius: 0 8px 8px 0;
-  color: var(--gray);
+  color: rgba(255, 255, 255, 0.85);
   position: relative;
+  backdrop-filter: blur(10px);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 blockquote::before {
@@ -840,7 +867,7 @@ blockquote::before {
 }
 
 blockquote strong {
-  color: var(--dark);
+  color: var(--white);
 }
 
 hr {

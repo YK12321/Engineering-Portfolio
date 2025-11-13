@@ -19,7 +19,9 @@
       this.ctx = this.canvas.getContext('2d');
       this.stars = [];
       this.shootingStars = [];
-      this.numStars = 200;
+      this.nebulaClouds = [];
+      this.numStars = 400;
+      this.time = 0;
       
       this.resize();
       this.init();
@@ -39,42 +41,94 @@
         this.stars.push({
           x: Math.random() * this.canvas.width,
           y: Math.random() * this.canvas.height,
-          radius: Math.random() * 1.5 + 0.5,
-          opacity: Math.random() * 0.5 + 0.3,
-          twinkleSpeed: Math.random() * 0.02 + 0.01,
-          twinklePhase: Math.random() * Math.PI * 2
+          radius: Math.random() * 2 + 0.3,
+          opacity: Math.random() * 0.6 + 0.2,
+          twinkleSpeed: Math.random() * 0.03 + 0.01,
+          twinklePhase: Math.random() * Math.PI * 2,
+          driftSpeedX: (Math.random() - 0.5) * 0.1,
+          driftSpeedY: (Math.random() - 0.5) * 0.1
+        });
+      }
+      
+      // Create nebula clouds
+      this.nebulaClouds = [];
+      for (let i = 0; i < 8; i++) {
+        this.nebulaClouds.push({
+          x: Math.random() * this.canvas.width,
+          y: Math.random() * this.canvas.height,
+          radius: Math.random() * 150 + 100,
+          color: i % 3 === 0 ? '#6366f1' : i % 3 === 1 ? '#8b5cf6' : '#ec4899',
+          opacity: Math.random() * 0.08 + 0.03,
+          driftSpeedX: (Math.random() - 0.5) * 0.2,
+          driftSpeedY: (Math.random() - 0.5) * 0.2
         });
       }
     }
     
     createShootingStar() {
-      if (Math.random() > 0.98 && this.shootingStars.length < 3) {
+      if (Math.random() > 0.97 && this.shootingStars.length < 5) {
         this.shootingStars.push({
           x: Math.random() * this.canvas.width,
           y: Math.random() * this.canvas.height * 0.5,
-          length: Math.random() * 80 + 40,
-          speed: Math.random() * 3 + 2,
+          length: Math.random() * 120 + 60,
+          speed: Math.random() * 5 + 3,
           opacity: 1,
           angle: Math.random() * Math.PI / 6 + Math.PI / 6 // 30-60 degrees
         });
       }
     }
     
+    drawNebulaClouds() {
+      this.nebulaClouds.forEach(cloud => {
+        // Drift the clouds
+        cloud.x += cloud.driftSpeedX;
+        cloud.y += cloud.driftSpeedY;
+        
+        // Wrap around screen
+        if (cloud.x < -cloud.radius) cloud.x = this.canvas.width + cloud.radius;
+        if (cloud.x > this.canvas.width + cloud.radius) cloud.x = -cloud.radius;
+        if (cloud.y < -cloud.radius) cloud.y = this.canvas.height + cloud.radius;
+        if (cloud.y > this.canvas.height + cloud.radius) cloud.y = -cloud.radius;
+        
+        const gradient = this.ctx.createRadialGradient(
+          cloud.x, cloud.y, 0,
+          cloud.x, cloud.y, cloud.radius
+        );
+        gradient.addColorStop(0, cloud.color + Math.floor(cloud.opacity * 255).toString(16).padStart(2, '0'));
+        gradient.addColorStop(0.5, cloud.color + '10');
+        gradient.addColorStop(1, cloud.color + '00');
+        
+        this.ctx.fillStyle = gradient;
+        this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+      });
+    }
+    
     drawStars() {
       this.stars.forEach(star => {
+        // Drift stars slowly
+        star.x += star.driftSpeedX;
+        star.y += star.driftSpeedY;
+        
+        // Wrap around screen
+        if (star.x < 0) star.x = this.canvas.width;
+        if (star.x > this.canvas.width) star.x = 0;
+        if (star.y < 0) star.y = this.canvas.height;
+        if (star.y > this.canvas.height) star.y = 0;
+        
         star.twinklePhase += star.twinkleSpeed;
-        const opacity = star.opacity + Math.sin(star.twinklePhase) * 0.2;
+        const opacity = star.opacity + Math.sin(star.twinklePhase) * 0.3;
         
         this.ctx.beginPath();
         this.ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
         this.ctx.fillStyle = `rgba(255, 255, 255, ${opacity})`;
         this.ctx.fill();
         
-        // Larger stars get a glow
-        if (star.radius > 1.2) {
+        // Larger stars get a colorful glow
+        if (star.radius > 1.5) {
           this.ctx.beginPath();
-          this.ctx.arc(star.x, star.y, star.radius * 2, 0, Math.PI * 2);
-          this.ctx.fillStyle = `rgba(99, 102, 241, ${opacity * 0.3})`;
+          this.ctx.arc(star.x, star.y, star.radius * 3, 0, Math.PI * 2);
+          const glowColor = Math.sin(this.time * 0.001 + star.twinklePhase) > 0 ? '99, 102, 241' : '139, 92, 246';
+          this.ctx.fillStyle = `rgba(${glowColor}, ${opacity * 0.4})`;
           this.ctx.fill();
         }
       });
@@ -112,13 +166,18 @@
     }
     
     animate() {
-      // Create gradient background
+      this.time++;
+      
+      // Create animated gradient background
       const gradient = this.ctx.createLinearGradient(0, 0, 0, this.canvas.height);
-      gradient.addColorStop(0, '#0a1929');
-      gradient.addColorStop(1, '#1a0a3e');
+      const offset = Math.sin(this.time * 0.0005) * 0.1;
+      gradient.addColorStop(0, `hsl(${210 + offset * 20}, 70%, ${8 + offset * 2}%)`);
+      gradient.addColorStop(0.5, `hsl(${260 + offset * 20}, 60%, ${10 + offset * 2}%)`);
+      gradient.addColorStop(1, `hsl(${270 + offset * 10}, 80%, ${8 + offset * 2}%)`);
       this.ctx.fillStyle = gradient;
       this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
       
+      this.drawNebulaClouds();
       this.drawStars();
       this.drawShootingStars();
       this.createShootingStar();
