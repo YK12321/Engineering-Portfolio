@@ -3,67 +3,233 @@ layout: default
 title: Home
 ---
 
-<h1>Yathharthha Kaushal — Space Systems Engineer</h1>
+<!-- Hero Section -->
+<div class="hero">
+  <div class="hero-content">
+    <h1>Space Systems Engineer & Developer</h1>
+    <p>Space Systems Engineering student at York University, passionate about autonomous systems, aerospace structures, and sustainable space infrastructure. Building innovative solutions through engineering analysis and software development.</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary">
+        <i class="fas fa-rocket"></i> View Projects
+      </a>
+      <a href="{{ site.linkedin_url }}" target="_blank" class="btn btn-secondary">
+        <i class="fab fa-linkedin-in"></i> Connect on LinkedIn
+      </a>
+    </div>
+  </div>
+</div>
 
-<p>Welcome to my engineering portfolio. I'm a Space Systems Engineering student at York University with a passion for autonomous systems, aerospace structures, and sustainable space infrastructure. I combine technical expertise with strong communication skills to deliver innovative engineering solutions.</p>
+<!-- Projects Section -->
+<div class="content-section" id="projects">
+  <div class="section-header">
+    <h2>Featured Projects</h2>
+    <p>Engineering research, analysis, and applications I've developed</p>
+  </div>
+  
+  <div class="projects-grid">
+    <!-- Budgie the Budgeteer -->
+    <div class="project-card">
+      <div class="project-icon">
+        <i class="fas fa-piggy-bank"></i>
+      </div>
+      <h3>Budgie the Budgeteer</h3>
+      <p>A modern budget tracking application that helps users manage their finances effectively. Features intuitive expense categorization, real-time budget monitoring, and insightful financial analytics.</p>
+      <div class="tech-stack">
+        <span class="tech-badge">Python</span>
+        <span class="tech-badge">Django</span>
+        <span class="tech-badge">PostgreSQL</span>
+        <span class="tech-badge">JavaScript</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/YK12321/Budgeteer" target="_blank" class="project-link">
+          <i class="fab fa-github"></i> View Code
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
 
-<blockquote>
-  <strong>Connect with me:</strong> <a href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a> | <strong>Email:</strong> {{ site.email }}
-</blockquote>
+    <!-- Invelog -->
+    <div class="project-card">
+      <div class="project-icon">
+        <i class="fas fa-boxes"></i>
+      </div>
+      <h3>Invelog</h3>
+      <p>A comprehensive inventory management system designed to streamline stock tracking and organization. Features real-time inventory updates, automated alerts, and detailed reporting capabilities.</p>
+      <div class="tech-stack">
+        <span class="tech-badge">Python</span>
+        <span class="tech-badge">Flask</span>
+        <span class="tech-badge">SQLite</span>
+        <span class="tech-badge">Bootstrap</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/YK12321/Invelog" target="_blank" class="project-link">
+          <i class="fab fa-github"></i> View Code
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
 
-<hr>
+    <!-- Space Infrastructure Research -->
+    <div class="project-card">
+      <div class="project-icon">
+        <i class="fas fa-satellite"></i>
+      </div>
+      <h3>Space Infrastructure Research</h3>
+      <p>Comprehensive analysis of self-replicating autonomous systems for sustainable space development, including technical feasibility studies and ethical frameworks for emerging technologies.</p>
+      <div class="tech-stack">
+        <span class="tech-badge">MATLAB</span>
+        <span class="tech-badge">STK</span>
+        <span class="tech-badge">Python</span>
+        <span class="tech-badge">Systems Engineering</span>
+      </div>
+      <div class="project-links">
+        <a href="{{ site.baseurl }}/showcase/2-space-infrastructure.html" class="project-link">
+          Learn More
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
 
-<h2>About Me</h2>
+    <!-- Aerial Mapping Service -->
+    <div class="project-card">
+      <div class="project-icon">
+        <i class="fas fa-drone"></i>
+      </div>
+      <h3>Real-Time Aerial Mapping</h3>
+      <p>Project proposal integrating drone technology, computer vision, and cloud infrastructure for emergency response and infrastructure monitoring applications.</p>
+      <div class="tech-stack">
+        <span class="tech-badge">Computer Vision</span>
+        <span class="tech-badge">Cloud Architecture</span>
+        <span class="tech-badge">IoT</span>
+        <span class="tech-badge">GIS</span>
+      </div>
+      <div class="project-links">
+        <a href="{{ site.baseurl }}/showcase/4-aerial-mapping.html" class="project-link">
+          Learn More
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
 
-<p>As a <strong>Space Systems Engineering student</strong> at York University, I specialize in autonomous systems, aerospace structures, and sustainable space infrastructure development. My work bridges complex engineering concepts with practical applications, combining technical analysis with clear communication.</p>
+    <!-- Aerospace Structural Analysis -->
+    <div class="project-card">
+      <div class="project-icon">
+        <i class="fas fa-plane"></i>
+      </div>
+      <h3>Aerospace Structural Analysis</h3>
+      <p>Professional development work focused on Aircraft Structural Integrity Program (ASIP) implementation and advanced finite element analysis using ANSYS.</p>
+      <div class="tech-stack">
+        <span class="tech-badge">ANSYS</span>
+        <span class="tech-badge">FEA</span>
+        <span class="tech-badge">CAD</span>
+        <span class="tech-badge">ASIP</span>
+      </div>
+      <div class="project-links">
+        <a href="{{ site.baseurl }}/showcase/1-aerospace-structural.html" class="project-link">
+          Learn More
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
 
-<p><strong>Technical Expertise:</strong></p>
-<ul>
-  <li><strong>Analysis & Simulation:</strong> ANSYS, MATLAB, STK (Systems Tool Kit), Python programming</li>
-  <li><strong>Design & Modeling:</strong> CAD modeling, systems engineering, structural analysis</li>
-  <li><strong>Research Areas:</strong> Autonomous robotics, space infrastructure, sustainable technology, self-replicating systems</li>
-  <li><strong>Professional Skills:</strong> Technical writing, project documentation, stakeholder communication, visual presentation</li>
-</ul>
+    <!-- AI Fact-Checking -->
+    <div class="project-card">
+      <div class="project-icon">
+        <i class="fas fa-robot"></i>
+      </div>
+      <h3>AI Fact-Checking System</h3>
+      <p>Collaborative project improving AI-powered information verification systems with focus on user experience, trust, and accessibility in information systems design.</p>
+      <div class="tech-stack">
+        <span class="tech-badge">AI/ML</span>
+        <span class="tech-badge">UX Design</span>
+        <span class="tech-badge">System Design</span>
+        <span class="tech-badge">NLP</span>
+      </div>
+      <div class="project-links">
+        <a href="{{ site.baseurl }}/showcase/3-ai-fact-checking.html" class="project-link">
+          Learn More
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
-<hr>
+<!-- Skills Section -->
+<div class="content-section" style="background: var(--light);">
+  <div class="section-header">
+    <h2>Technical Skills</h2>
+    <p>Engineering tools and technologies</p>
+  </div>
+  
+  <div class="skills-grid">
+    <div class="skill-category">
+      <h3><i class="fas fa-code"></i> Programming & Development</h3>
+      <ul class="skill-list">
+        <li>Python (Django, Flask)</li>
+        <li>JavaScript</li>
+        <li>SQL (PostgreSQL, SQLite)</li>
+        <li>HTML/CSS</li>
+        <li>MATLAB</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-tools"></i> Engineering Tools</h3>
+      <ul class="skill-list">
+        <li>ANSYS (FEA)</li>
+        <li>STK (Systems Tool Kit)</li>
+        <li>CAD Modeling</li>
+        <li>Git & GitHub</li>
+        <li>Linux/Unix</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-rocket"></i> Space Systems</h3>
+      <ul class="skill-list">
+        <li>Autonomous Systems</li>
+        <li>Aerospace Structures</li>
+        <li>Systems Engineering</li>
+        <li>Orbital Mechanics</li>
+        <li>Structural Analysis</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-users"></i> Professional Skills</h3>
+      <ul class="skill-list">
+        <li>Project Management</li>
+        <li>Technical Documentation</li>
+        <li>Problem Solving</li>
+        <li>Team Collaboration</li>
+        <li>Research & Analysis</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-<h2>Featured Projects</h2>
-
-<h3>🚀 <strong>Technical Engineering Projects</strong></h3>
-
-<ol>
-  <li><strong>Space Infrastructure Research</strong> — Comprehensive analysis of self-replicating autonomous systems for sustainable space development, including technical feasibility studies and ethical frameworks</li>
-  <li><strong>Real-Time Aerial Mapping Service</strong> — Project proposal integrating drone technology, computer vision, and cloud infrastructure for emergency response and infrastructure monitoring</li>
-  <li><strong>AI Fact-Checking System Redesign</strong> — Collaborative project improving AI system design with focus on user experience and information verification</li>
-  <li><strong>Aerospace Industry Applications</strong> — Professional development work targeting structural integrity analysis and ASIP (Aircraft Structural Integrity Program) implementation</li>
-</ol>
-
-<h3>🎯 <strong>Skills & Expertise</strong></h3>
-<p>Demonstrated capabilities in technical analysis, systems engineering, project management, and professional communication. View my <a href="/professionaldevelopment/">skills page</a> for detailed information on my technical and professional competencies.</p>
-
-<hr>
-
-<h2>What Sets Me Apart</h2>
-
-<p>My approach to engineering combines technical rigor with practical application:</p>
-<ul>
-  <li><strong>Multidisciplinary Thinking:</strong> Integrating technical, ethical, and strategic considerations in engineering solutions</li>
-  <li><strong>Clear Communication:</strong> Translating complex technical concepts for diverse audiences and stakeholders</li>
-  <li><strong>Innovation Focus:</strong> Pursuing emerging technologies in space systems and autonomous robotics</li>
-  <li><strong>Continuous Learning:</strong> Staying current with aerospace industry trends and advanced engineering tools</li>
-</ul>
-
-<hr>
-
-<h2>Explore My Portfolio</h2>
-
-<p>Navigate through my portfolio using the menu above, or explore directly:</p>
-<ul>
-  <li><strong><a href="/showcase/">Technical Projects</a></strong> — View my engineering work and research</li>
-  <li><strong><a href="/professionaldevelopment/">Skills & Expertise</a></strong> — Learn about my technical capabilities</li>
-  <li><strong><a href="/about.html">About</a></strong> — Professional background and interests</li>
-</ul>
-
-<hr>
-
-<p><em>Portfolio last updated {{ "now" | date: "%B %Y" }}</em></p>
+<!-- About Section -->
+<div class="content-section">
+  <div class="section-header">
+    <h2>About Me</h2>
+    <p>Engineer, Researcher, Problem Solver</p>
+  </div>
+  
+  <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+    <p style="font-size: 1.1rem; line-height: 1.8; color: var(--gray);">
+      I'm a Space Systems Engineering student at York University with a passion for autonomous systems, aerospace structures, 
+      and sustainable space infrastructure. I combine rigorous engineering analysis with practical problem-solving skills, 
+      developing both software applications and conducting aerospace research. My work bridges theoretical engineering 
+      principles with real-world implementations, from space systems analysis to web applications.
+    </p>
+    <div class="hero-buttons mt-4">
+      <a href="{{ site.baseurl }}/about.html" class="btn btn-primary">
+        Learn More About Me
+      </a>
+      <a href="mailto:{{ site.email }}" class="btn btn-secondary">
+        <i class="fas fa-envelope"></i> Get In Touch
+      </a>
+    </div>
+  </div>
+</div>
