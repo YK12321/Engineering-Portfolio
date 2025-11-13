@@ -240,7 +240,7 @@ main {
 
 /* Hero Section with space theme */
 .hero {
-  background: var(--gradient-2);
+  background: transparent;
   color: white;
   padding: 5rem 3rem;
   text-align: center;
@@ -295,7 +295,7 @@ main {
   font-weight: 800;
   margin-bottom: 1rem;
   line-height: 1.2;
-  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.8), 0 4px 40px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
@@ -303,7 +303,7 @@ main {
   margin-bottom: 2rem;
   opacity: 0.95;
   line-height: 1.8;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.8), 0 2px 20px rgba(0, 0, 0, 0.5);
 }
 
 .hero-buttons {
