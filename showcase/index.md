@@ -11,7 +11,7 @@ This section showcases my engineering projects spanning space systems research, 
 
 ## Featured Projects
 
-### � [Space Infrastructure Research](2-eng2003.html)
+### 🚀 [Space Infrastructure Research](2-space-infrastructure.html)
 **Self-Replicating Autonomous Systems Analysis** — Comprehensive technical research on the feasibility, ethics, and implementation of self-replicating systems for sustainable space development.
 
 **Technical Focus:** Systems engineering, autonomous robotics, space infrastructure, sustainability analysis, ethical frameworks
@@ -24,7 +24,7 @@ This section showcases my engineering projects spanning space systems research, 
 
 ---
 
-### � [Real-Time Aerial Mapping Service](4-other-2024-25.html)
+### 🚁 [Real-Time Aerial Mapping Service](4-aerial-mapping.html)
 **Drone-Based Infrastructure Monitoring** — Project proposal for an integrated aerial mapping solution combining drone technology, computer vision, and cloud infrastructure.
 
 **Technical Focus:** Drone systems, computer vision, cloud computing, real-time data processing, emergency response applications
