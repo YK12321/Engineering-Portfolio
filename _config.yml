@@ -48,6 +48,10 @@ plugins_exclude:
   - jekyll-default-layout
   - jekyll-optional-front-matter
 
+# Explicitly include assets folder and all its contents
+include:
+  - assets
+
 # Navigation (shown on the home page)
 nav:
   - title: Home
